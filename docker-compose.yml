@@ -1,0 +1,23 @@
+version: "3"
+services:
+  api:
+    image: api_server
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    ports: 
+      - 4000:4000
+    networks: 
+      - mevn-stack-net
+  client:
+    image: vue_app
+    build:
+      context: ./client
+      dockerfile: ./Dockerfile
+    ports:
+      - 8080:8080
+    networks: 
+      - mevn-stack-net
+networks:
+  mevn-stack-net:
+    driver: bridge
