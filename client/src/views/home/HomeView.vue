@@ -16,3 +16,11 @@ import HelloWorld from './components/HelloWorld.vue'; // @ is an alias to /src
 })
 export default class HomeView extends Vue {}
 </script>
+
+<style lang="scss" scoped>
+@media all and (max-width:999px){
+  .home {
+    padding: 5rem 1rem 0 1rem;
+  }
+}
+</style>
