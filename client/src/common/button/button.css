@@ -1,0 +1,38 @@
+@media all and (max-width: 999px) {
+    .btn-transparent {
+        color: #fff;
+        background-color: transparent;
+        border: 1px solid #fff;
+        padding: 0.5rem 1.5rem;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .btn-blue {
+        color: #fff;
+        background-color: #2E77CB;
+        border: 1px solid #2E77CB;
+        padding: 0.5rem 1.5rem;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    .btn-transparent {
+        color: #fff;
+        background-color: transparent;
+        border: 1px solid #fff;
+        padding: 1rem 3rem;
+        font-size: 15px;
+    }
+
+    .btn-blue {
+        color: #fff;
+        background-color: #2E77CB;
+        border: 1px solid #2E77CB;
+        padding: 1rem 3rem;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}

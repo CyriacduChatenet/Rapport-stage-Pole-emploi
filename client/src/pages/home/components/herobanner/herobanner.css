@@ -1,0 +1,44 @@
+@media all and (max-width: 999px) {
+    .homeHerobanner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height:100%;
+        width: 100%;
+        background-image: url('../../../../assets/images/home-desk.JPG');
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .homeHerobannerTitle {
+        padding-bottom: 3rem;
+        color: #fff;
+        font-size: 52px;
+        font-family: 'Vodan';
+        letter-spacing: 10px;
+    }
+}
+@media all and (min-width: 1000px) {
+    .homeHerobanner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        background-image: url('../../../../assets/images/home-desk.JPG');
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .homeHerobannerTitle {
+        padding-bottom: 3rem;
+        color: #fff;
+        font-size:150px;
+        font-family: 'Vodan';
+        letter-spacing: 10px;
+    }
+}

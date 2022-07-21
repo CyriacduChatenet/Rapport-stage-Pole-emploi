@@ -1,3 +1,31 @@
-h1 {
-    height: 100vh;
+@media all and (max-width: 999px) {
+    #home {
+        display: grid;
+        grid-template-rows: 40em 1fr;
+        height: 140vh;
+    }
+
+    .articlesList {
+        background-color:rebeccapurple;
+    }
+
+    .articleCardLarge {
+        background-color: royalblue;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    #home {
+        display: grid;
+        grid-template-rows: 45em 1fr;
+        height: 180vh;
+    }
+
+    .articlesList {
+        background-color:rebeccapurple;
+    }
+
+    .articleCardLarge {
+        background-color: royalblue;
+    }
 }

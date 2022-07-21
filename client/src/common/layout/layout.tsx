@@ -1,8 +1,8 @@
 import "./layout.css";
 import { Children } from "../types/global";
-import { Footer } from "./footer/footer";
-import { NavbarDesktop } from "./navbar/desktop/navbarDesktop";
-import { NavbarMobile } from './navbar/mobile/navbarMobile';
+import { Footer } from "./components/footer/footer";
+import { NavbarDesktop } from "./components/navbar/desktop/navbarDesktop";
+import { NavbarMobile } from './components/navbar/mobile/navbarMobile';
 
 export const Layout = ({ children }: Children) => {
   return (

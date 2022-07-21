@@ -5,13 +5,13 @@ export const NavbarMenu = () => {
     return (
         <ul id="navbarMenu">
             <li className="navbarMenuItem">
-                <Link to="" className="navbarMenuLink">Accueil</Link>
+                <Link to="/" className="navbarMenuLink">Accueil</Link>
             </li>
             <li className="navbarMenuItem">
-                <Link to="" className="navbarMenuLink">A propos</Link>
+                <Link to="/a-propos" className="navbarMenuLink">A propos</Link>
             </li>
             <li className="navbarMenuItem">
-                <Link to="" className="navbarMenuLink">Contact</Link>
+                <Link to="/contact" className="navbarMenuLink">Contact</Link>
             </li>
         </ul>
     )
