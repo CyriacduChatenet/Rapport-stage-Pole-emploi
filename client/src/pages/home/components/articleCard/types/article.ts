@@ -3,5 +3,5 @@ export interface Article {
     description : string;
     date : string;
     image_src : string;
-    cardSize : string;
+    card_size : string;
 }

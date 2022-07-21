@@ -1,2 +1,130 @@
-@media all and (max-width: 999px) {}
-@media all and (min-width: 1000px){}
+@media all and (max-width: 999px) {
+  .articleCardLarge {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 10rem;
+    margin: 1rem 0;
+  }
+
+  .articleCardNormal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 10rem;
+    margin: 1rem 0;
+  }
+
+  .cardImage {
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0 0px;
+    -webkit-border-radius: 10px 10px 0 0px;
+    -moz-border-radius: 10px 10px 0 0px;
+    -ms-border-radius: 10px 10px 0 0px;
+    -o-border-radius: 10px 10px 0 0px;
+  }
+  .cardContent {
+    width: 91%;
+    height: 40%;
+    padding: 0 1rem;
+  }
+
+  .otherInfos {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 3rem;
+  }
+
+  .cardTitle {
+    padding-top: 0.5rem;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .cardDescription {
+    font-size: 15px;
+    color: #898989;
+    padding: 0.5rem 0;
+  }
+
+  .cardDate {
+    font-size: 15px;
+    font-style: italic;
+  }
+}
+@media all and (min-width: 1000px) {
+  .articleCardLarge {
+    display: grid;
+    grid-template-columns: 30rem 1fr;
+    width: 100%;
+    height: 8rem;
+  }
+
+  .articleCardNormal {
+    display: grid;
+    grid-template-rows: 1fr 12rem;
+    width: 40%;
+    height: 24rem;
+    margin: 2rem 0;
+  }
+
+  .cardImage {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px 0 0 10px;
+    -webkit-border-radius: 10px 0 0 10px;
+    -moz-border-radius: 10px 0 0 10px;
+    -ms-border-radius: 10px 0 0 10px;
+    -o-border-radius: 10px 0 0 10px;
+  }
+  .cardImageNormal {
+    border-radius: 10px 10px 0 0px;
+    -webkit-border-radius: 10px 10px 0 0px;
+    -moz-border-radius: 10px 10px 0 0px;
+    -ms-border-radius: 10px 10px 0 0px;
+    -o-border-radius: 10px 10px 0 0px;
+}
+  .cardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 0 4rem 0;
+    width: 91%;
+    height: 80%;
+    padding: 0 1rem;
+  }
+
+  .otherInfos {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 3rem;
+  }
+
+  .cardTitle {
+    padding-top: 3rem;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .cardDescription {
+    font-size: 15px;
+    color: #898989;
+    padding: 0.5rem 0;
+  }
+
+  .cardDate {
+    font-size: 15px;
+    font-style: italic;
+  }
+}
