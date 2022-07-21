@@ -9,7 +9,7 @@ require('./database/dbConfig');
 
 const app = express();
 
-app.use(express.static(path.join(__dirname, '../client/dist')));
+app.use(express.static(path.join(__dirname, '../client/build')));
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(cors());
