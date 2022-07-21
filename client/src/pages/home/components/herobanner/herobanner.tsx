@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Button } from '../../../../common/button/button';
+import { Button } from '../../../../common/components/button/button';
 import './herobanner.css';
 
 export const Herobanner = () => {

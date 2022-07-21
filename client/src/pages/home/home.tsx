@@ -1,4 +1,5 @@
-import { Layout } from "../../common/layout/layout";
+import { Layout } from "../../common/components/layout/layout";
+import { ArticleCard } from "./components/articleCard/articleCard";
 import { Herobanner } from "./components/herobanner/herobanner";
 import "./home.css";
 
@@ -8,9 +9,23 @@ export const HomePage = () => {
       <div id="home">
         <Herobanner />
         <section className="articlesList">
-          <div className="articleCardLarge"></div>
+          <div className="articlesListHeader">
+            <ArticleCard
+              title=""
+              description=""
+              date=""
+              image_src=""
+              cardSize="large"
+            />
+          </div>
           <div className="otherArticles">
-            <div className="articleCard"></div>
+            <ArticleCard
+              title=""
+              description=""
+              date=""
+              image_src=""
+              cardSize="normal"
+            />
           </div>
         </section>
       </div>
