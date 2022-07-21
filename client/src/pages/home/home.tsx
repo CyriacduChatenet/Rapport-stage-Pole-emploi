@@ -1,7 +1,11 @@
+import { Button } from "../../common/button/button";
+import { Layout } from "../../common/layout/layout";
+import "./home.css";
+
 export const HomePage = () => {
-    return (
-        <>
-            <h1>Hello react</h1>
-        </>
-    )
-}
+  return (
+    <Layout>
+      <h1>Main</h1>
+    </Layout>
+  );
+};
