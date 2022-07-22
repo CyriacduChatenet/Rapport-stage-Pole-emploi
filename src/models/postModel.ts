@@ -22,6 +22,10 @@ const postSchema = new Schema<IPost>({
         type: String,
         required: true
     },
+    article_url : {
+        type: String,
+        required: true
+    },
     first_part_subtitle : {
         type: String,
         required: true

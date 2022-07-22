@@ -4,6 +4,7 @@ export interface IPost {
     preview_title: string,
     preview_description: string,
     preview_picture_url: string,
+    article_url: string,
     date: string,
     title: string,
     first_part_subtitle: string,

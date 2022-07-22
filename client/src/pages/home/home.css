@@ -7,7 +7,7 @@
 
   .articleCardLarge {
     background-color: #fff;
-    height: 20rem;
+    height: 22rem;
     width: 90%;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -19,7 +19,7 @@
 
   .articleCardNormal {
     background-color: #fff;
-    height: 20rem;
+    height: 22rem;
     width: 90%;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -36,7 +36,7 @@
     justify-content: space-between;
     padding: 2rem 0 2rem 0;
     width: 100%;
-    height: 24rem;
+    height: 28rem;
   }
 
   .homeSubtitle {
