@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button } from "../../../../common/components/button/button";
 import "./articleCard.css";
 import { Article } from "./types/article";
@@ -24,7 +25,7 @@ export const ArticleCard = ({
         <p className="cardDescription">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
         <div className="otherInfos">
           <p className="cardDate">12/10/22</p>
-          <Button color="blue" label="Lire la suite" />
+          <Link to="/article"><Button color="blue" label="Lire la suite" /></Link>
         </div>
       </div>
     </div>

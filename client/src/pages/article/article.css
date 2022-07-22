@@ -1,0 +1,14 @@
+@media all and (max-width: 999px){}
+@media all and (min-width: 1000px){
+    #article {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 100px;
+    }
+
+    .article-herobanner {
+        width: 100%;
+        background-color: red;
+    }
+}

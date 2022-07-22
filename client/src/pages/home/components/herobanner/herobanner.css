@@ -35,10 +35,16 @@
     }
 
     .homeHerobannerTitle {
-        padding-bottom: 3rem;
+        padding-bottom: 0.5rem;
         color: #fff;
         font-size:150px;
         font-family: 'Vodan';
         letter-spacing: 10px;
+    }
+
+    .homeHerobannerSubtitle {
+        margin-bottom: 4rem;
+        color: #fff;
+        font-size: 24px;
     }
 }
