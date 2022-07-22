@@ -1,0 +1,85 @@
+@media all and (max-width: 999px) {}
+
+@media all and (min-width: 1000px) {
+    #articlePart {
+        width: 90%;
+        padding: 0 5em 2em 5em;
+    }
+
+    .articlePartTitle {
+        padding: 0 0 1em 0;
+        font-family: 'Bebas-Neue';
+        letter-spacing: 10px;
+    }
+
+    .articlePartSubtitle {
+        padding: 0 0 1em 0;
+        font-family: 'Bebas-Neue';
+        letter-spacing: 10px;
+    }
+
+    .twoImages {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .articleImages {
+        width: 45%;
+    }
+
+    .articleImageFirst {
+        width: 100%;
+        height:16em;
+        margin-bottom: 1em;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .articleImageSecond {
+        width: 100%;
+        height:16em;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .singleImageRight {
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    .articleImageRight {
+        width: 50%;
+        height:16em;
+        margin-bottom: 1em;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .singleImageBottom {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    .articleImageBottom {
+        width: 100%;
+        height:16em;
+        margin-bottom: 1em;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .contentLarge {
+        width: 100%;
+        padding-bottom: 2em;
+    }
+}

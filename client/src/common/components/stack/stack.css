@@ -1,0 +1,19 @@
+@media all and (max-width: 999px) {}
+@media all and (min-width: 1000px) {
+    #stack {
+        margin: 1em 0;
+        width: 45%;
+        list-style: none;
+    }
+
+    .toolsList {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .stackTitle {
+        font-size: 22px;
+    }
+}
