@@ -1,22 +1,23 @@
 import bodyParser from 'body-parser';
+import cors from 'cors';
 import express from 'express';
 import path from 'path';
-import cors from 'cors';
-import { appRouter } from './routes/app/appRoute';
-import { postRoute } from './routes/posts/postsRoute';
+import { articleRoute } from './routes/article/articleRoute';
+import { appRoute } from './routes/app/appRoutes';
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 require('dotenv').config();
 require('./database/dbConfig');
 
 const app = express();
 
-app.use(express.static(path.join(__dirname, '../client/build')));
 app.use(express.json());
+app.use(cors())
 app.use(bodyParser.json());
-app.use(cors());
+app.use(express.static(path.join(__dirname, '../client/build')))
 
-app.use('/*', appRouter);
-app.use('/api/v1', postRoute);
+app.use('/api',articleRoute)
+app.use('/*', appRoute)
 
 app.listen(process.env.PORT, () => {
-    console.log(`Server started on port ${process.env.PORT}`);
+  console.log(`server started on port ${process.env.PORT}`);
 });
