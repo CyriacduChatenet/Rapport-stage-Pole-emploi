@@ -4,4 +4,5 @@ export interface Article {
     date : string;
     image_src : string;
     card_size : string;
+    link : string;
 }

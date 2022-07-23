@@ -10,7 +10,7 @@ export const RouteManager = () => {
             <Route path = '/' element={<HomePage/>}/>
             <Route path = '/about' element={<AboutPage/>}/>
             <Route path = '/contact' element={<ContactPage/>}/>
-            <Route path = '/article' element={<ArticlePage/>}/>
+            <Route path = '/article/*' element={<ArticlePage/>}/>
         </Routes>
         </>
     )

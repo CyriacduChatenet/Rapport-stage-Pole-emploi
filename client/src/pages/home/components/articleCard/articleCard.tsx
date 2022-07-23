@@ -9,6 +9,7 @@ export const ArticleCard = ({
   date,
   image_src,
   card_size,
+  link
 }: Article) => {
   return (
     <div
@@ -21,11 +22,11 @@ export const ArticleCard = ({
         style={{ backgroundImage: `url(${image_src})` }}
       ></div>
       <div className="cardContent">
-        <h3 className="cardTitle">title</h3>
-        <p className="cardDescription">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+        <h3 className="cardTitle">{title}</h3>
+        <p className="cardDescription">{description}</p>
         <div className="otherInfos">
-          <p className="cardDate">12/10/22</p>
-          <Link to="/article"><Button color="blue" label="Lire la suite" /></Link>
+          <p className="cardDate">{date}</p>
+          <Link to={`/article/${link}`}><Button color="blue" label="Lire la suite" /></Link>
         </div>
       </div>
     </div>
