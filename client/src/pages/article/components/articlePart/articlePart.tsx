@@ -1,9 +1,9 @@
 import './articlePart.css';
-import { ArticleBlock } from './types/articlePart';
+import { IArticlePart } from './types/articlePart';
 
-export const ArticlePart = ({title, subtitle, content, image_middle_src, image_first_src, image_second_src, image_middle_right_src} : ArticleBlock) => {
+export const ArticlePart = ({title, subtitle, content, image_middle_src, first_image_src, second_image_src, image_middle_right_src} : IArticlePart) => {
     const conditionalTemplate = () => {
-        if(image_first_src !== "" || image_second_src !== ""){
+        if(first_image_src !== "" || second_image_src !== ""){
             return 'twoImages';
         }
         if(image_middle_right_src !== ""){
@@ -20,12 +20,12 @@ export const ArticlePart = ({title, subtitle, content, image_middle_src, image_f
                 {subtitle !== "" ?  <h3 className="articlePartSubtitle">{subtitle}</h3> : null}
                 <p className="articlePartContent">{content}</p>
             </div>
-                {image_first_src !== "" && image_second_src !== "" ? <aside className="articleImages">
-                    <div className="articleImageFirst" style={{backgroundImage : `url(${image_first_src})`}}></div>
-                    <div className="articleImageSecond" style={{backgroundImage : `url(${image_second_src})`}}></div>
-                </aside> : null}
-                {image_middle_right_src !== "" ? <aside className="articleImageRight" style={{backgroundImage : `url(${image_middle_right_src})`}}></aside> : null}
-                {image_middle_src !== "" ? <div className="articleImageBottom" style={{backgroundImage : `url(${image_middle_src})`}}></div> : null}
+                {first_image_src !== "" && second_image_src !== "" ? <aside className="articleImages">
+                    <div className="articleImageFirst" style={{backgroundImage : `url(${first_image_src})`}}></div>
+                    <div className="articleImageSecond" style={{backgroundImage : `url(${second_image_src})`}}></div>
+                </aside> : <></>}
+                {image_middle_right_src !== "" ? <aside className="articleImageRight" style={{backgroundImage : `url(${image_middle_right_src})`}}></aside> : <></>}
+                {image_middle_src !== "" ? <div className="articleImageBottom" style={{backgroundImage : `url(${image_middle_src})`}}></div> : <></>}
         </div>
     )
 };

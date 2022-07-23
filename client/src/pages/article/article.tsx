@@ -6,9 +6,11 @@ import { ThinksBlock } from "./components/thinks/thinks";
 import IArticle from "../../common/types/articleInterface";
 import { useState } from "react";
 import { UseFetch } from "../../common/hooks/useFetch";
+import { IArticlePart } from "./components/articlePart/types/articlePart";
+import { IStack } from "../../common/components/stack/types/stack";
 
 export const ArticlePage = () => {
-  const [data, setData] = useState<IArticle[] | any>([]);
+  const [data, setData] = useState<IArticle[]>([]);
 
   const getUrl = () => {
     return window.location.pathname;
@@ -18,50 +20,55 @@ export const ArticlePage = () => {
 
   return (
     <Layout>
-      {data.map((article: IArticle) => (
-        <div id="article">
-          <div className="articleHeader">
-            <h1 className="articleTitle">{article.title}</h1>
-            <div
-              className="articleImagePreview"
-              style={{
-                backgroundImage: `url(${article.preview_image_src})`,
-              }}
-            ></div>
-          </div>
-          <ul className="articleList">
-            {article.content.map((article_part: any) => (
-              <ArticlePart
-                key={article_part._id}
-                title={article_part.first_title}
-                subtitle={article_part.first_part_first_subtitle}
-                content={article_part.first_part_first_content}
-                image_middle_src=""
-                image_first_src={article_part.first_part_first_image_src}
-                image_second_src={article_part.first_part_second_image_src}
-                image_middle_right_src=""
-              />
-            ))}
-          </ul>
-          {data.stack === true ? (
+      <>
+        {data.map((article: IArticle) => (
+          <div id="article" key={article._id}>
+            <div className="articleHeader">
+              <h1 className="articleTitle">{article.title}</h1>
+              <div
+                className="articleImagePreview"
+                style={{
+                  backgroundImage: `url(${article.preview_image_src})`,
+                }}
+              ></div>
+            </div>
+            <ul className="articleList">
+              {article.content.map((article_part: IArticlePart) => (
+                <ArticlePart
+                  key={article_part._id}
+                  title={article_part.subtitle}
+                  subtitle=""
+                  content={article_part.content}
+                  image_middle_src={article_part.image_middle_src}
+                  first_image_src={article_part.first_image_src}
+                  second_image_src={article_part.second_image_src}
+                  image_middle_right_src={article_part.image_middle_right_src}
+                />
+              ))}
+            </ul>
             <div className="articleStack">
               <h2 className="articlePartTitle">Stack</h2>
               <ul className="stackList">
-                {/* <StackBlock tools={tools} title="Backend" />
-              <StackBlock tools={tools} title="Frontend" />
-              <StackBlock tools={tools} title="Devops" />
-              <StackBlock tools={tools} title="Design" />
-              <StackBlock tools={tools} title="Product Management" /> */}
+                {article.stack.stack.map((tools: IStack) => (
+                  <StackBlock
+                    key={tools._id}
+                    stack_name={tools.stack_name}
+                    technologies={tools.technologies}
+                  />
+                ))}
               </ul>
             </div>
-          ) : null}
-          {data.thinks === true ? (
             <div className="articleThinks">
-              <ThinksBlock />
+              {article.thinks.thinks_status === true ? (
+                <ThinksBlock
+                  thinks_content={article.thinks.thinks_content}
+                  thinks_people_List={article.thinks.thinks_people_List}
+                />
+              ) : null}
             </div>
-          ) : null}
-        </div>
-      ))}
+          </div>
+        ))}
+      </>
     </Layout>
   );
 };

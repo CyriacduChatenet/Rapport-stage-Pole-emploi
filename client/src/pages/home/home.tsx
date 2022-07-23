@@ -22,7 +22,7 @@ export const HomePage = () => {
             {data.map((article) => (
               <ArticleCard
                 key={article._id}
-                link={article.article_url}
+                link={article.article_link}
                 title={article.title}
                 description={article.description}
                 date={article.date}

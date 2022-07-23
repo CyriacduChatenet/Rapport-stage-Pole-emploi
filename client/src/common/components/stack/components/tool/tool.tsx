@@ -1,8 +1,8 @@
 import './tool.css';
-import { ITool } from "./types/tool";
+import { ITechnologie } from './types/technologie';
 
-export const Tool = ({tool_name, tool_image_url} : ITool) => {
+export const Tool = ({technologie_name, technologie_logo_url, technologie_doc_link} : ITechnologie) => {
     return (
-        <a href={tool_name}><div id="tool" style={{backgroundImage : `url(${tool_image_url})`}}></div></a>
+        <a href={technologie_doc_link}><div id="tool" style={{backgroundImage : `url(${technologie_logo_url})`}}></div></a>
     )
 }

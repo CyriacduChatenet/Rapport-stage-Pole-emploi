@@ -14,11 +14,8 @@ export const ArticlePostController = async (
     article_link: request.body.article_link,
     content : request.body.content,
     stack: {
-      backend: request.body.stack.backend,
-      frontend: request.body.stack.frontend,
-      devops: request.body.stack.devops,
-      design: request.body.stack.design,
-      product_management: request.body.stack.product_management,
+      stack_status : request.body.stack.stack_status,
+      stack : request.body.stack.stack,
     },
     thinks : {
         thinks_status : request.body.thinks.thinks_status,
