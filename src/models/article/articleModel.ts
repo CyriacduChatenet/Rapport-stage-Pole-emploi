@@ -1,4 +1,4 @@
-import mongoose, { Schema, model } from "mongoose";
+import { Schema, model } from "mongoose";
 import IArticle from "../../interfaces/articleInterface";
 
 const articleSchema = new Schema<IArticle>({
