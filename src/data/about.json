@@ -1,0 +1,204 @@
+{
+  "title": "Passioné par la création et le code",
+  "location": "Basé à Bordeaux",
+  "preview_image_src": "data:image/png;base64,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",
+  "skills": [
+    {
+      "name": "Fullstack JavaScript Developer"
+    },
+    {
+      "name": "UX - UI Developer"
+    }
+  ],
+  "missions": [
+    {
+      "job": "Développeur frontend Angular",
+      "company": "Pôle emploi",
+      "date": "Mai-Août 2022"
+    },
+    {
+      "job": "Lead Développeur",
+      "company": "The last chance escape game",
+      "date": "Janvier 2022"
+    },
+    {
+      "job": "UX - UI designer",
+      "company": "Studentweet",
+      "date": "Jan-Juin 2021"
+    }
+  ],
+  "body": {
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae diam pretium libero cursus ultrices finibus a lectus. Aliquam mattis risus ac dolor ultricies placerat in nec erat. Duis ullamcorper ligula eu augue vestibulum fermentum. Nunc vel libero sed lacus vehicula cursus. Nunc sed aliquam justo. Etiam congue vehicula nisl, at condimentum ante sollicitudin sit amet. Donec rhoncus, lacus quis molestie porta, odio quam ultricies magna, sit amet auctor leo est sit amet arcu. Vestibulum non luctus est. Phasellus viverra ipsum quis tempus feugiat. Phasellus feugiat ac turpis ut placerat. Vestibulum porttitor pulvinar leo ac convallis. Praesent eu ultricies diam, sit amet tempus ex. Morbi euismod risus justo, ac pharetra sem fringilla id.Sed sed massa rhoncus, laoreet nunc et, consequat lectus. Vivamus mollis ut orci vitae eleifend. Sed et gravida libero. Mauris lacinia massa rhoncus nibh porttitor mattis. Ut at mauris sed lacus consequat faucibus et eu augue. Donec congue lacus in augue aliquet, quis suscipit lacus vestibulum. Integer elementum viverra nunc ac dignissim. Praesent sed dolor sit amet ligula gravida cursus in vitae magna.Fusce ornare elementum dictum. Curabitur suscipit, mi id lobortis dictum, urna eros vehicula est, et convallis neque augue et magna. Integer posuere arcu a auctor finibus. Aenean imperdiet orci felis, id porttitor nunc euismod non. Curabitur ullamcorper velit tincidunt, eleifend leo nec, dictum massa. Praesent nec pellentesque nibh, a bibendum urna. Integer vehicula nisl at hendrerit pulvinar. Maecenas vel consectetur ipsum.",
+    "profile_picture_src": ""
+  },
+  "stack": {
+    "stack_status": true,
+    "stack": [
+      {
+        "stack_name": "Backend",
+        "technologies": [
+          {
+            "technologie_name": "TypeScript",
+            "technologie_doc_link": "https://www.typescriptlang.org/docs/",
+            "technologie_logo_url": "https://seeklogo.com/images/T/typescript-logo-B29A3F462D-seeklogo.com.png"
+          },
+          {
+            "technologie_name": "JavaScript",
+            "technologie_doc_link": "https://www.javascript.com/",
+            "technologie_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"
+          },
+          {
+            "technologie_name": "Nodejs",
+            "technologie_doc_link": "https://nodejs.org/en/",
+            "technologie_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png"
+          },
+          {
+            "technologie_name": "Express",
+            "technologie_doc_link": "https://expressjs.com/fr/",
+            "technologie_logo_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
+          },
+          {
+            "technologie_name": "MongoDB",
+            "technologie_doc_link": "https://www.mongodb.com/",
+            "technologie_logo_url": "https://cdn.gabrieleromanato.com/5c37214980b3/uploads/2019/12/mongodb_logo.png"
+          },
+          {
+            "technologie_name": "Cypress",
+            "technologie_doc_link": "https://www.cypress.io/",
+            "technologie_logo_url": "https://blog.eleven-labs.com/assets/2020-09-02-test-e2e-cypress/cypress-logo.png"
+          }
+        ]
+      },
+      {
+        "stack_name": "Frontend",
+        "technologies": [
+          {
+            "technologie_name": "React",
+            "technologie_doc_link": "https://fr.reactjs.org/",
+            "technologie_logo_url": "https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/1774/formation-react-avance.png"
+          },
+          {
+            "technologie_name": "NextJS",
+            "technologie_doc_link": "https://nextjs.org/",
+            "technologie_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png"
+          },
+          {
+            "technologie_name": "VueJS",
+            "technologie_doc_link": "https://vuejs.org/",
+            "technologie_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png"
+          },
+          {
+            "technologie_name": "NuxtJS",
+            "technologie_doc_link": "https://nuxtjs.org/",
+            "technologie_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Nuxt_logo_%282021%29.svg/2560px-Nuxt_logo_%282021%29.svg.png"
+          },
+          {
+            "technologie_name": "TypeScript",
+            "technologie_doc_link": "https://www.typescriptlang.org/docs/",
+            "technologie_logo_url": "https://seeklogo.com/images/T/typescript-logo-B29A3F462D-seeklogo.com.png"
+          },
+          {
+            "technologie_name": "JavaScript",
+            "technologie_doc_link": "https://www.javascript.com/",
+            "technologie_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"
+          },
+          {
+            "technologie_name": "Sass",
+            "technologie_doc_link": "https://sass-lang.com/",
+            "technologie_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/2560px-Sass_Logo_Color.svg.png"
+          },
+          {
+            "technologie_name": "Jest",
+            "technologie_doc_link": "https://jestjs.io/",
+            "technologie_logo_url": "https://user-images.githubusercontent.com/10525473/50372432-95dcd880-0611-11e9-9432-58de9be26b3b.png"
+          },
+          {
+            "technologie_name": "Cypress",
+            "technologie_doc_link": "https://www.cypress.io/",
+            "technologie_logo_url": "https://blog.eleven-labs.com/assets/2020-09-02-test-e2e-cypress/cypress-logo.png"
+          }
+        ]
+      },
+      {
+        "stack_name": "Devops",
+        "technologies": [
+          {
+            "technologie_name": "Git",
+            "technologie_doc_link": "https://git-scm.com/doc",
+            "technologie_logo_url": "http://assets.stickpng.com/images/5847f981cef1014c0b5e48be.png"
+          },
+          {
+            "technologie_name": "Github",
+            "technologie_doc_link": "https://github.com/",
+            "technologie_logo_url": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+          },
+          {
+            "technologie_name": "Gitlab",
+            "technologie_doc_link": "https://gitlab.com/gitlab-org/gitlab",
+            "technologie_logo_url": "https://1000logos.net/wp-content/uploads/2022/02/Gitlab-Logo.png"
+          },
+          {
+            "technologie_name": "Docker",
+            "technologie_doc_link": "https://docs.docker.com/",
+            "technologie_logo_url": "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png"
+          }
+        ]
+      },
+      {
+        "stack_name": "Design",
+        "technologies": [
+          {
+            "technologie_name": "Figma",
+            "technologie_doc_link": "https://www.figma.com/",
+            "technologie_logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+          },
+          {
+            "technologie_name": "XD",
+            "technologie_doc_link": "https://www.adobe.com/fr/products/xd.html",
+            "technologie_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png"
+          },
+          {
+            "technologie_name": "Photoshop",
+            "technologie_doc_link": "https://www.adobe.com/fr/products/photoshop.html",
+            "technologie_logo_url": "https://www.adobe.com/fr/products/premiere.html"
+          },
+          {
+            "technologie_name": "Premiere Pro",
+            "technologie_doc_link": "https://www.adobe.com/fr/products/premiere.html",
+            "technologie_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/2101px-Adobe_Premiere_Pro_CC_icon.svg.png"
+          }
+        ]
+      },
+      {
+        "stack_name": "Product management",
+        "technologies": [
+          {
+            "technologie_name": "Jira",
+            "technologie_doc_link": "https://www.atlassian.com/fr/software/jira",
+            "technologie_logo_url": "https://logos-world.net/wp-content/uploads/2021/02/Jira-Emblem.png"
+          },
+          {
+            "technologie_name": "Confluence",
+            "technologie_doc_link": "https://www.atlassian.com/fr/software/confluence",
+            "technologie_logo_url": "https://cdn-icons-png.flaticon.com/512/5968/5968793.png"
+          },
+          {
+            "technologie_name": "Teams",
+            "technologie_doc_link": "https://www.microsoft.com/fr-fr/microsoft-teams/group-chat-software",
+            "technologie_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/1200px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png"
+          },
+          {
+            "technologie_name": "Slack",
+            "technologie_doc_link": "https://slack.com/intl/fr-fr/",
+            "technologie_logo_url": "https://a.slack-edge.com/80588/marketing/img/icons/icon_slack_hash_colored.png"
+          },
+          {
+            "technologie_name": "Mattermost",
+            "technologie_doc_link": "https://mattermost.com/",
+            "technologie_logo_url": "https://seeklogo.com/images/M/mattermost-logo-D99772902B-seeklogo.com.png"
+          }
+        ]
+      }
+    ]
+  }
+}

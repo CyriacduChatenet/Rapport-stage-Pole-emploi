@@ -31,46 +31,6 @@ export interface IAbout {
                 technologie_logo_url: string;
               }
             ];
-          },
-          {
-            stack_name : string;
-            technologies: [
-              {
-                technologie_name: string;
-                technologie_doc_link: string;
-                technologie_logo_url: string;
-              }
-            ];
-          },
-          {
-            stack_name : string;
-            technologies: [
-              {
-                technologie_name: string;
-                technologie_doc_link: string;
-                technologie_logo_url: string;
-              }
-            ];
-          },
-          {
-            stack_name : string;
-            technologies: [
-              {
-                technologie_name: string;
-                technologie_doc_link: string;
-                technologie_logo_url: string;
-              }
-            ];
-          },
-          {
-            stack_name : string;
-            technologies: [
-              {
-                technologie_name: string;
-                technologie_doc_link: string;
-                technologie_logo_url: string;
-              }
-            ];
           }
         ];
       };
