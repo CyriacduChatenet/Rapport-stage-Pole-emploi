@@ -4,7 +4,7 @@ import { Article } from '../../models/article/articleModel';
 export const ArticlePatchController =async (request : Request, response : Response) => {
     try {
         const updateArticle = await Article.updateOne(
-            { article_url: request.params.article_url },
+            { article_link: request.params.articleLink },
             {
                 $set: {
                     title: request.body.title,

@@ -16,6 +16,9 @@ export const ArticlePage = () => {
     return window.location.pathname;
   };
 
+  console.log(getUrl());
+  
+
   UseFetch(data, setData, `/api${getUrl()}`);
 
   return (
@@ -46,7 +49,7 @@ export const ArticlePage = () => {
                 />
               ))}
             </ul>
-            <div className="articleStack">
+            {article.stack.stack_status === true ? <div className="articleStack">
               <h2 className="articlePartTitle">Stack</h2>
               <ul className="stackList">
                 {article.stack.stack.map((tools: IStack) => (
@@ -57,7 +60,7 @@ export const ArticlePage = () => {
                   />
                 ))}
               </ul>
-            </div>
+            </div> : null}
             <div className="articleThinks">
               {article.thinks.thinks_status === true ? (
                 <ThinksBlock

@@ -8,10 +8,10 @@ export const articleRoute = express.Router()
 
 articleRoute.get('/articles', ArticleGetAllController)
 
-articleRoute.get('/article/:articleUrl', ArticleGetSingleController);
+articleRoute.get('/article/:articleLink', ArticleGetSingleController);
 
-articleRoute.post('/articles', ArticlePostController);
+articleRoute.post('/article', ArticlePostController);
 
-articleRoute.patch('/article/:articleUrl', ArticlePatchController)
+articleRoute.patch('/article/:articleLink', ArticlePatchController)
 
-articleRoute.delete('/article/articleUrl', ArticleDeleteController)
+articleRoute.delete('/article/articleLink', ArticleDeleteController)

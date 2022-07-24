@@ -10,10 +10,10 @@ export const ArticleGetAllController = async (request:Request, response: Respons
     }
 };
 
-export const ArticleGetSingleController = async (request : Request, response : Response) => {
+export const ArticleGetSingleController = async (request : Request, response : Response) => { 
     try {
         const article = await Article.find({
-            Article_url: request.params.ArticleUrl,
+            article_link: request.params.articleLink,
         });
         response.status(200).json(article);
     } catch (err) {

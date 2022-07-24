@@ -2,6 +2,7 @@
   #home {
     display: grid;
     grid-template-rows: 40em 1fr;
+    padding-bottom: 3em;
     background-color: #F9F9F9;
   }
 
@@ -19,7 +20,7 @@
 
   .articleCardNormal {
     background-color: #fff;
-    height: 22rem;
+    height: 28rem;
     width: 90%;
     border-radius: 10px;
     -webkit-border-radius: 10px;
