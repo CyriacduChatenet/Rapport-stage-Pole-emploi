@@ -2,7 +2,7 @@
     #article {
         display: flex;
         flex-direction: column;
-        width: 98%;
+        width: 85%;
         padding: 0 1em;
     }
 
@@ -11,7 +11,7 @@
         flex-direction: column;
         align-items: center;
         justify-content:center;
-        width: 90%;
+        width: 100%;
         height: 18em;
     }
 
@@ -28,7 +28,11 @@
         width: 100%;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+    }
+
+    .articleList {
+        width: 100%;
     }
 }
 @media all and (min-width: 1000px){
@@ -58,7 +62,7 @@
         width: 100%;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
     }
 
     .articleStack {

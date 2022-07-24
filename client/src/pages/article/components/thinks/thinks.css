@@ -1,4 +1,25 @@
-@media all and (max-width: 999px) {}
+@media all and (max-width: 999px) {
+    #thinks {
+        margin: 1em 0;
+        padding: 0 1em;
+        width: 100%;
+    }
+
+    .thinksList {
+        padding: 1em 2em;
+        width: 100%;
+    }
+
+    .thinksContent {
+        padding: 1em 0;
+    }
+
+    .thinksTitle {
+        font-size: 22px;
+        font-family: "Bebas-Neue";
+        letter-spacing: 10px;
+    }
+}
 @media all and (min-width: 1000px) {
     #thinks {
         margin: 1em 0;

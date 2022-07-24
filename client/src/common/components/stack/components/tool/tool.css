@@ -1,4 +1,16 @@
-@media all and (max-width: 999px) {}
+@media all and (max-width: 999px) {
+    #tool {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.5em;
+        width: 6em;
+        height: 3em;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
 @media all and (min-width: 1000px) {
     #tool {
         display: flex;

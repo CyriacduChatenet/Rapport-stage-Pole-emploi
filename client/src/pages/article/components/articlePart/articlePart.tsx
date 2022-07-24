@@ -12,10 +12,14 @@ export const ArticlePart = ({title, subtitle, content, image_middle_src, first_i
         if(image_middle_src !== ""){
             return 'singleImageBottom';
         }
+
+        if(image_middle_src !== "" && image_middle_right_src !== "" && first_image_src !== "" && second_image_src !== ""){
+            return 'noImages'
+        }
     }
     return (
         <div id="articlePart" className={conditionalTemplate()}>
-            <div id="articleContent" className={image_middle_src !== "" ? 'contentLarge' : "o"}>
+            <div id="articleContent" className={image_middle_src !== "" ? 'contentLarge' : "o"} style={conditionalTemplate() ==='singleImageBottom' ? {width: '100%'} : {width : "45%"} || conditionalTemplate() === "noImages" ? {width: '100%'} : {width : "45%"}}>
                 <h2 className="articlePartTitle">{title}</h2>
                 {subtitle !== "" ?  <h3 className="articlePartSubtitle">{subtitle}</h3> : null}
                 <p className="articlePartContent">{content}</p>

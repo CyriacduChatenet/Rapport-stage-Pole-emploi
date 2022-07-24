@@ -1,6 +1,6 @@
 @media all and (max-width: 999px) {
     #articlePart {
-        width: 95%;
+        width: 100%;
         padding: 0 1em 2em 1em;
     }
 
@@ -45,9 +45,6 @@
 
     .singleImageRight {
         width: 100%;
-        display: flex;
-        justify-content:space-between;
-        align-items:center;
     }
 
     .articleImageRight {
@@ -104,6 +101,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    #articleContent {
+        width: 45%;
     }
     
     .articleImages {
