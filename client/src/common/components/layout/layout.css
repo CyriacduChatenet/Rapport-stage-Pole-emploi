@@ -1,5 +1,7 @@
 @media all and (max-width: 999px){
     #root {
+        overflow: hidden;
+        overflow-x: hidden;
         width: 100%;
         display: grid;
         grid-template-columns: 1fr;

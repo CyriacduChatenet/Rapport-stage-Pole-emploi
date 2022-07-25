@@ -27,6 +27,10 @@
         font-size: 15px;
     }
 
+    .btn-transparent:hover {
+        cursor: pointer;
+    }
+
     .btn-blue {
         color: #fff;
         background-color: #2E77CB;
@@ -34,5 +38,9 @@
         padding: 1rem 3rem;
         font-size: 15px;
         font-weight: 500;
+    }
+
+    .btn-blue:hover {
+        cursor: pointer;
     }
 }

@@ -1,7 +1,6 @@
 @media all and (max-width: 999px) {
     #about {
         width: 95%;
-        oveflow: hidden;
     }
 
     .aboutHeader {
@@ -9,12 +8,12 @@
         flex-direction: column;
         align-items: center;
         justify-content:center;
-        padding: 0 1em 0 0;
-        width: 90%;
+        padding: 0 0em 0 1em;
+        width: 95%;
     }
 
     .aboutTitle {
-        padding: 1em;
+        padding: 1em 0 1em 0;
         width: 90%;
         font-size: 28px;
         font-family: 'Vodan';

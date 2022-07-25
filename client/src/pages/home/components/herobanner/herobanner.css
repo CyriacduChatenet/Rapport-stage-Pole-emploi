@@ -19,6 +19,11 @@
         font-family: 'Vodan';
         letter-spacing: 10px;
     }
+
+    .homeHerobannerSubtitle {
+        padding: 3em 0 1em 0;
+        color: #fff;
+    }
 }
 @media all and (min-width: 1000px) {
     .homeHerobanner {
