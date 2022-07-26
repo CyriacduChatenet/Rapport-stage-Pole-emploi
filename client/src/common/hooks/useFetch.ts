@@ -7,7 +7,6 @@ export const UseFetch = (data: object, setData : any, link : string) => {
         try {
             const todos: AxiosResponse<ApiDataType> = await axios.get(link);
             setData(todos.data)
-            console.log(data);
             
             return todos;
         } catch (error) {

@@ -16,9 +16,6 @@ export const ArticlePage = () => {
     return window.location.pathname;
   };
 
-  console.log(getUrl());
-  
-
   UseFetch(data, setData, `/api${getUrl()}`);
 
   return (
