@@ -62,7 +62,7 @@
         width: 100%;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
     }
 
     .articleStack {
