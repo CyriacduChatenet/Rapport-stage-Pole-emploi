@@ -37,7 +37,7 @@ export const AboutPage = () => {
               ))}
             </section>
             <section className="aboutMissions">
-              <h3 className="aboutSubtitleSecond">Last missions</h3>
+              <h3 className="aboutSubtitleSecond">Dernières missions</h3>
               {about.missions.map((mission: IAboutCardMission) => (
                 <AboutCardMission
                   job={mission.job}
